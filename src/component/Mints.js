@@ -5,7 +5,13 @@ import skinRainbow from "../assets/image/skin-rainbow.png";
 import minus from "../assets/image/minus.png";
 import plus from "../assets/image/plus.png";
 export default function Mints() {
-  const [value, setMintValue] = useState("");
+  const [value, setMintValue] = useState(1);
+  function increase() {
+    setMintValue((prev) => prev + 1);
+  }
+  function decrease() {
+    setMintValue((prev) => prev - 1);
+  }
   return (
     <Container maxWidth="xl" className="relative  mt-6" id="mint">
       <div className="rounded-[20px] bg-gradient p-[18px] md:mx-20">
@@ -37,7 +43,10 @@ export default function Mints() {
               Get your Wavy Turtle
             </span>
             <div className="flex items-center justify-between">
-              <button className="flex items-center justify-center bg-gradient rounded-full max-w-[60px] box-shadow ">
+              <button
+                className="flex items-center justify-center bg-gradient rounded-full max-w-[60px] box-shadow "
+                onClick={decrease}
+              >
                 <img src={minus} alt="minus" />
               </button>
               <input
@@ -46,7 +55,10 @@ export default function Mints() {
                 value={value}
                 className="placeholder-white outline-none bg-transparent text-center text-white border-border border-solid border-[1.2px] mx-12 rounded-[3.5px] max-w-[128px] leading-5 text-base py-1"
               />
-              <button className="flex items-center justify-center bg-gradient rounded-full max-w-[60px] box-shadow ">
+              <button
+                className="flex items-center justify-center bg-gradient rounded-full max-w-[60px] box-shadow "
+                onClick={increase}
+              >
                 <img src={plus} alt="plus" />
               </button>
             </div>

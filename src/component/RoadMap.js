@@ -12,7 +12,7 @@ export default function RoadMap() {
           <span className="text-center text-white text-2xl md:text-[56px] leading-tight font-Inter font-semibold">
             Roadmap
           </span>
-          <div className="flex items-center text-center max-w-md text-white mx-auto mt-12">
+          <div className="flex items-center text-center max-w-md text-gray mx-auto mt-12">
             Roadmap description Roadmap description Roadmap description Roadmap
             description Roadmap description Roadmap description Roadmap
             description Roadmap description Roadmap description Roadmap
@@ -26,7 +26,7 @@ export default function RoadMap() {
               alt="label"
               className=" bg-white rounded-[32px] py-2 px-6 md:py-8 md:px-16"
             />
-            <span className="text-white text-xl leading-6 font-Inter font-semibold ">
+            <span className="text-gray text-xl leading-6 font-Inter font-semibold ">
               Wavy Turtle Club Launch
             </span>
           </div>
@@ -39,7 +39,7 @@ export default function RoadMap() {
               alt="label"
               className=" bg-white rounded-[32px] py-2 px-6 md:py-8 md:px-16"
             />
-            <span className="text-white text-xl leading-6 font-Inter font-semibold ">
+            <span className="text-gray text-xl leading-6 font-Inter font-semibold ">
               Staking
             </span>
           </div>
@@ -52,7 +52,7 @@ export default function RoadMap() {
               alt="label"
               className=" bg-white rounded-[32px] py-2 px-6 md:py-8 md:px-16"
             />
-            <span className="text-white text-xl leading-6 font-Inter font-semibold ">
+            <span className="text-gray text-xl leading-6 font-Inter font-semibold ">
               Q3 2022
             </span>
           </div>

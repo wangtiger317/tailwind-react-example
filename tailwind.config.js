@@ -9,7 +9,7 @@ module.exports = {
       lime: "#00FF19CC",
       yellow: "#fde047",
       border: "rgba(178, 187, 187, 1)",
-      gray: "#222222",
+      gray: "#969696",
     },
     extend: {
       fontFamily: {
